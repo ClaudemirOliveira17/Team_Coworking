@@ -1,0 +1,59 @@
+body{
+    font-family: sans-serif; 
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+ #logo{
+    width: 16%;
+    
+    
+
+ }
+#telefonista{
+    width: 60%;
+    padding: 30px;
+    display: inline-block;
+    
+    
+}
+
+.titulo{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+
+#vamosconversar{
+    color: rgb(253, 252, 253);
+    font-size: 20px;
+}
+
+form {
+    padding: 10px;
+    background-color: rgba(112, 27, 223, 0.651);
+    border-radius: 15px;
+    display: inline-block;
+    position: absolute;
+    right: 7%;
+    top: 100px;
+    
+}
+
+
+#botao{
+    display: inline-block;
+    padding: 7px;
+    border-radius: 4px;
+    background:  rgba(112, 27, 223, 0.651);
+    border-color:  rgba(112, 27, 223, 0.651);
+    color: rgb(247, 246, 248);
+    font-style: inherit;
+    }
+
+footer{
+        color: rgb(70, 16, 124);
+        margin-bottom: 50px;
+        font-style:italic
+    }
