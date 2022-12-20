@@ -5,47 +5,49 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Team Coworking</title>
+        <link rel="stylesheet" href="assets/css/style_login.css">
+        <link rel="icon" type="images/png" href="assets/images/iconTeam.png"/>
     </head>  
     <body>
         <header>    
             <nav>
-              <img src="assets/images/logoTeam.jpg" alt="Start" width="170" height="">  
-              
+              <img src="assets/images/logoTeam.jpg" alt="Start" width="170" height="">            
             </nav>
         </header>
         <hr>
-        <main>  
-            <div>
-              <img src="assets/images/coworking1.jpeg" alt="Start" width="220" height="130"> 
-              <img src="assets/images/coworking2estru.jpg" alt="Start" width="220" height="130"> 
-
-              
-
-  
+        <main>          
+            <div>  
+              <!-- posicionando as imagens -->
+              <img src="assets/images/coworking1.jpeg" alt="Start" width="400" height="250"> 
+              <img src="assets/images/coworking2estru.jpg" alt="Start" width="400" height="250"> 
 
             </div>
-            <form action="">
-              <fieldset>
+            <form>
+              <span>
+                <!-- alterando a fonte e o tamanho das letras -->
                 <label for="email">
-                  email:
+                  E-mail:
                 </label>
-                <input type="email" id="email" nome="mailto">
-              </fieldset>
-              <fieldset>
+                <input type="email" id="email" nome="email">
+              </span>
+              <p>
+              <span>
                 <label for="senha">
-                  senha:
+                  Senha:
                 <input type="password" id="senha" name="senha"> 
                 </label>
-              </fieldset>
-              
-              </fieldset>
+              </span>
+              </p>
+              <span>                
+                <label for="radio-client"><input type="radio" name="contact" value="client" id="radio-client">Cliente</label>
+                <label for="radio-partner"><input type="radio" name="contact" value="partner" id="radio-partner">Parceiro</label>
+              </span>       
               <p><i><a href="url">Esqueci minha senha</a></i></p>
                 <button type="submit">
                   Login
                 </button>
-                
-
-             </form>
+                   
+            </form>
          
         </main>
         <footer>
@@ -53,7 +55,5 @@
         </footer>
     
     </body>
-
-
 
 </html>
