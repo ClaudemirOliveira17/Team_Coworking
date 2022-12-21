@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/assets/css/style_quem_somos.css">
+  <link rel="stylesheet" href="/assets/css/quem_somos.css">
   <link rel="icon" type="image/svg" href="assets/images/logo.png" />
   <title>Quem Somos</title>
   <img class="logoteam" src="/assets/images/logo.png" alt="logoteam">
@@ -13,13 +13,13 @@
 
 <body>
   <h1>Quem Somos</h1>
-  <img src="/assets/images/About UsTeste.jpg" alt="Quem Somos">
+  <img class="imagemquemsomos" src="/assets/images/About UsTeste.jpg" alt="Quem Somos">
   <div>
     <p class="primeiro"> A Team Coworking ajuda as equipes na transição de escritórios tradicionais para <strong> organizações remotas e híbridas. </strong> Mostramos aos indivíduos o poder transformador do trabalho flexível e os capacitamos a levar uma vida mais realizada e produtiva, profissional e pessoalmente. </p>
     <p class="segundo">
       O local onde alguém trabalha pode fazer toda a diferença em como alguém se sente feliz, saudável e determinado em seu trabalho. É por isso que oferecemos às empresas de todo o mundo uma solução de trabalho híbrido sob medida para seus funcionários. Aproximar os espaços de trabalho das pessoas e dos seus interesses. Enraizados na cena pioneira do coworking em Berlim, agora estamos na fronteira do mundo do trabalho híbrido pós-covid e temos a missão de trazer você para o futuro do trabalho. Este é o nosso propósito. </p>
   </div>
-  <img src="assets/images/imagemfinal.png" alt="Foto de uma mesa de escritório e uma xícara de café vista do alto">
+  <img class="imagemquemsomos" src="assets/images/imagemfinal.png" alt="Foto de uma mesa de escritório e uma xícara de café vista do alto">
   <p class="primeiro"> A Team é <strong> uma potência de entusiastas do trabalho flexível, repleto de prodígios e veteranos do espaço de coworking </strong> que acreditam que o futuro de uma vida profissional equilibrada é de modo híbrido e flexível. </p>
   </div>
   <div>
@@ -27,30 +27,32 @@
   </div>
 
   <div class="grid">
-    <p class="obtenha"> Obtenha mais flexibilidade para sua equipe</p>
-    <p class="legendaobtenha"> <strong> O que você está esperando? Vamos encontrar a solução para você.</strong></p>
     <img class="imagemformulario" src="assets/images/imagemformulario.jpg" alt="Foto de um escritório Coworking">
-    <form action="" method="get" class="formulario">
-      <div class="formulario">
-        <label for="name">Qual o teu nome? </label>
-        <input type="text" name="name" id="name" required>
-      </div>
-      <div class="formulario">
-        <label for="email">Qual o teu e-mail? </label>
-        <input type="email" name="email" id="email" required>
-      </div>
-      <div class="formulario">
-        <label for="name">Digite o teu telefone </label>
-        <input type="text" name="name" id="name" required>
-      </div>
-      <div class="formulario">
-        <label for="name">Quantos funcionários tem tua empresa? </label>
-        <input type="text" name="name" id="name" required>
-      </div>
-      <p class="privacidade"> O One Coworking precisa das informações de contato que você nos fornece para contatá-lo sobre nossos produtos e serviços. Você pode cancelar a assinatura dessas comunicações a qualquer momento. Para obter informações sobre como cancelar a inscrição, bem como nossas práticas de privacidade e compromisso de proteger sua privacidade, consulte nossa Política de Privacidade. </p>
-      <div class="formulario">
-        <input class="botao" type="submit" value="Enviar!">
-      </div>
+    <div class="leftform">
+      <p class="obtenha"> Obtenha mais flexibilidade para sua equipe</p>
+      <p class="legendaobtenha"> <strong> O que você está esperando? Vamos encontrar a solução para você.</strong></p>
+      <form action="" method="get" class="formulario">
+        <div class="formulario">
+          <label for="name">Qual o teu nome? </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="formulario">
+          <label for="email">Qual o teu e-mail? </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="formulario">
+          <label for="name">Digite o teu telefone </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+    </div>
+    <div class="formulario">
+      <label for="name">Quantos funcionários tem tua empresa? </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <p class="privacidade"> O One Coworking precisa das informações de contato que você nos fornece para contatá-lo sobre nossos produtos e serviços. Você pode cancelar a assinatura dessas comunicações a qualquer momento. Para obter informações sobre como cancelar a inscrição, bem como nossas práticas de privacidade e compromisso de proteger sua privacidade, consulte nossa <a class="linkpolitica" href="/privacidade.html"> Política de Privacidade</a></p>
+    <div class="formulario">
+      <button class="botaoform"> Enviar</button>
+    </div>
     </form>
   </div>
   <section class="finalpage">
@@ -67,6 +69,7 @@
     </div>
     </div>
   </section>
+
 </body>
 
 </html>

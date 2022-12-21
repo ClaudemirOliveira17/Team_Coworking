@@ -1,0 +1,243 @@
+body {
+  font-family: sans-serif;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+.logoteam {
+  width: 187px;
+  height: 63px;
+  margin-left: 175px;
+}
+.imagemquemsomos {
+  max-width: 100%;
+}
+.primeiro {
+  margin: 84px 509px 5px 175px;
+  display: inline-block;
+  color: #090a15;
+  font-weight: 300;
+  line-height: 45px;
+  text-align: left;
+  font-size: 30px;
+  width: 836px;
+  height: 171px;
+}
+img {
+  width: 100%;
+  margin: 0%;
+  height: 80%;
+}
+.segundo {
+  margin: 37px 478px 70px 175px;
+  display: inline-block;
+  color: #090a15;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  width: 866px;
+  height: 144px;
+}
+h2 {
+  color: #131429;
+  display: inline;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: left;
+}
+.logoinicio {
+  width: 600px;
+}
+.logoiniciopng {
+  width: 600px;
+}
+div {
+  padding: 80px 35;
+}
+.conheca {
+  margin: 55px 1037px 55px 175px;
+  display: inline-block;
+  color: #131429;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: left;
+}
+.funcionarios {
+  padding: 40px 30px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #b2b2b2;
+  border-radius: 4px;
+}
+.obtenha {
+  color: #090a15;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 40.726px;
+  text-align: left;
+  padding: 7px 15px 0px 15px;
+  margin-left: 160;
+  grid-row: 1;
+  grid-column: 1;
+}
+.legendaobtenha {
+  color: #da70d6;
+  padding: 0px 15px 35px 15px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+  width: 350px;
+  height: 24;
+  margin-top: 0px;
+  place-self: right;
+}
+.imagemformulario {
+  width: 560px;
+  height: 942px;
+  margin-top: 50px;
+  position: absolute;
+  left: 775px;
+  grid-column: 1;
+  grid-row: 2/4;
+}
+.formulario {
+  color: #111;
+  padding: 50 50 50 50;
+  text-align: left;
+  width: 400px;
+  margin-left: 20px;
+}
+.botaoform {
+  background: #6f1abd;
+  padding: 15px;
+  border-radius: 4px;
+  margin-left: 40%;
+}
+.leftform {
+  display: grid;
+  place-items: start;
+  place-self: start;
+}
+.privacidade {
+  color: #111;
+  text-align: center;
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #b2b2b2;
+  width: 450px;
+  padding: 19px;
+  border-radius: 4px;
+  margin: 50px 0px 50px 5px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  place-items: start;
+  grid-template-rows: repeat(3, auto);
+}
+.imgfunc {
+  width: 300px 300px;
+}
+.finalpag {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.imagemfinalpage {
+  width: 293px;
+  height: 170px;
+}
+.liguefinal {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin-top: 90px;
+}
+.finalpage {
+  margin-top: 550px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 50px;
+  padding: 0px 10px;
+  background: #e8e8e8;
+  width: 1390px;
+}
+.solucaocerta {
+  font-size: 38px;
+  color: #131429;
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 42px;
+  text-align: center;
+  height: 172px;
+  width: 250px;
+  margin-right: 100px;
+  margin-left: 0px;
+  border-radius: 4px;
+}
+.barra {
+  width: 20px;
+  height: 80px;
+  margin-top: 110px;
+}
+.contatofinal {
+  width: 49px 19px;
+  color: #090a15;
+}
+.contatodireita {
+  width: 30%;
+  height: 252px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 90px;
+  background: #e8e8e8;
+  padding: 10px 20px 10px 20px;
+}
+.liguemail {
+  color: #090a15;
+  line-height: 23.272px;
+  text-align: center;
+  font-weight: 700;
+  width: 120px;
+  height: 40px;
+  background: #e8e8e8;
+}
+.numero {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23.272px;
+  text-align: center;
+  color: #ffa400;
+  background: #6f1abd;
+  margin-left: 40px;
+  padding: 10px 20px;
+  width: 180px;
+  height: 30px;
+  border-radius: 6px;
+}
+.email {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23.272px;
+  text-align: center;
+  color: #ffa400;
+  background: #6f1abd;
+  margin-left: 40px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  width: 320px;
+  height: 30px;
+  border-radius: 6px;
+}
+.linkpolitica {
+  text-decoration: none;
+  color: #6f1abd;
+}
