@@ -2,8 +2,15 @@
     font-family: sans-serif; 
 }
 
+.destaque_index{
+    color: #6F1ABD;
+    font-size: 15pt;
+    font-weight: bold;    
+}
+
+
 .horizontal-menu{            
-    background: #B49FCC;
+    background: #ffffff;
     display:grid;
     padding: 0px 380px;
     position: sticky;
