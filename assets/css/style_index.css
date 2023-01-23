@@ -3,11 +3,12 @@
 }
 
 .horizontal-menu{            
-    background: #ffffff;
-    display: inline-block;
-    padding: 0px 360px;
+    background: #B49FCC;
+    display:grid;
+    padding: 0px 380px;
     position: sticky;
     top: 0;
+    border-radius: 10px;
 
 }
 .horizontal-menu > ul{
@@ -44,8 +45,9 @@
 }
 
 .horizontal-menu > img{
-    max-height: 44px;
-    width: auto;
+    max-height: 60px;
+    display: grid;
+    position: sticky;
 }
 
 .horizontal-menu.type1 > ul > li .sub-menu{
@@ -106,16 +108,7 @@
 .horizontal-menu{
     position: relative;
 }
-.horizontal-menu i.icone-burguer {
-    position: absolute;
-    top: 43px;
-    right: 31px;
-    font-size: 30px;
-    content: "\e916";
-    color: #fff;
-    font-family: 'toolkit_font'!important;
-    cursor: pointer;
-}
+
 .horizontal-menu>ul>li{
     display: block;
     width: 100%;
