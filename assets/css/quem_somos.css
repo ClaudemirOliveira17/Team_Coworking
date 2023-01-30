@@ -1,6 +1,5 @@
 body {
   font-family: sans-serif;
-  width: 100%;
 }
 h1 {
   text-align: center;
@@ -11,7 +10,7 @@ h1 {
   margin-left: 175px;
 }
 .imagemquemsomos {
-  max-width: 100%;
+  max-width: 99%;
 }
 .primeiro {
   margin: 84px 509px 5px 175px;
@@ -79,14 +78,14 @@ div {
   font-weight: 300;
   line-height: 40.726px;
   text-align: left;
-  padding: 7px 15px 0px 15px;
+  padding: 7px 10px 0px 10px;
   margin-left: 160;
   grid-row: 1;
   grid-column: 1;
 }
 .legendaobtenha {
   color: #da70d6;
-  padding: 0px 15px 35px 15px;
+  padding: 0px 10px 35px 10px;
   font-size: 20px;
   font-weight: 300;
   line-height: 32px;
@@ -101,15 +100,15 @@ div {
   height: 942px;
   margin-top: 50px;
   position: absolute;
-  left: 775px;
+  left: 770px;
   grid-column: 1;
   grid-row: 2/4;
 }
 .formulario {
   color: #111;
-  padding: 50 50 50 50;
+  padding: 50 45 50 45;
   text-align: left;
-  width: 400px;
+  width: 300px;
   margin-left: 20px;
 }
 .botaoform {
@@ -193,13 +192,13 @@ div {
   color: #090a15;
 }
 .contatodireita {
-  width: 30%;
+  width: 25%;
   height: 252px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 90px;
   background: #e8e8e8;
-  padding: 10px 20px 10px 20px;
+  padding: 5px 20px 5px 20px;
 }
 .liguemail {
   color: #090a15;
