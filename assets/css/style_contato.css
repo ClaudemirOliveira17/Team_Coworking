@@ -1,59 +1,136 @@
 body{
+  
     font-family: sans-serif; 
-    display: inline-block;
+    display: block;
     font-size: 14px;
 }
 
+a{
+    text-decoration: none;
+}
 
- #logo{
-    width: 16%;
+#menu{
+    font-family: sans-serif;
+    font-weight:bold;
+    position: absolute;
+    left: 40%;
+    height: 50px;
     
-    
+}
 
- }
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+li{
+   
+    font-family: sans-serif;
+    color: white;
+    margin-right: 10px;
+    border-left: 2px solid blueviolet;
+    border-right:2px solid blueviolet;
+    border-radius: 5px;
+    padding: 3px;
+    
+}
+
+#login{
+    
+    background-color: blueviolet;
+    color: white;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+#logo{
+    width: 10%;
+    margin: 1%;
+}
+
 #telefonista{
-    width: 60%;
-    padding: 30px;
-    display: inline-block;
+    width: 35%;
+    position: absolute;
+	left: 150px;
+	top: 230px;
     
+	}
+
+#matriz{
+    color: rgb(113, 37, 184);
+    font-weight: bold;
+    font-size: 20px;
     
+}
+.endereco{
+    block-size: auto;
+    position: absolute;
+    top: 77%;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 .titulo{
-    color: blueviolet;
+    color: rgb(113, 37, 184);
     font-size: 25px;
 }
 
-
-#vamosconversar{
-    color: rgb(253, 252, 253);
-    font-size: 20px;
+#entreemcontato{
+ color: rgb(94, 47, 138);
 }
 
 form {
+    color: white;
+    display: inline-block;
     padding: 10px;
     background-color: rgba(112, 27, 223, 0.651);
     border-radius: 15px;
-    display: inline-block;
     position: absolute;
     right: 7%;
-    top: 100px;
+    top: 150px;
+}
+
+#idnome{
+        border-width: 3px;
+        border-radius: 7px;
+        border-color: rgba(112, 27, 223, 0.651);
+}
+
+#idemail{
+    border-width: 3px;
+    border-radius: 7px;
+    border-color: rgba(112, 27, 223, 0.651);
+}
+
+#idtelefone{
+    border-width: 3px;
+    border-radius: 7px;
+    border-color: rgba(112, 27, 223, 0.651);
+}
+
+#idmensagem{
+    border-width: 3px;
+    border-radius: 7px;
+    border-color: rgba(112, 27, 223, 0.651);
     
 }
 
-
 #botao{
-    display: inline-block;
     padding: 7px;
     border-radius: 4px;
     background:  rgba(112, 27, 223, 0.651);
     border-color:  rgba(112, 27, 223, 0.651);
     color: rgb(247, 246, 248);
     font-style: inherit;
-    }
+}
 
 footer{
-        color: rgb(70, 16, 124);
-        margin-bottom: 50px;
-        font-style:italic
-    }
+    color: blueviolet;
+    font-style:italic;
+    position: relative;
+    top: 520px;
+
+}
