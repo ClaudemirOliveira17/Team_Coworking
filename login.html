@@ -1,62 +1,84 @@
 <!DOCTYPE html>
-<p Lang="en">
-    <head>
-        <meta charset ="UTF-8"> 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Team Coworking</title>
-        <link rel="stylesheet" href="assets/css/style_login.css">
-        <link rel="icon" type="images/png" href="assets/images/iconTeam.png"/>
-    </head>  
-    <p>
-        <header>    
-            <nav>
-              <img src="assets/images/logoTEAM Coworking.png" alt="Start" width="170" height="">            
-            </nav>
-        </header>
-        <hr>
-        <main>          
-            <div>  
+<html Lang="en">
+<head>
+  <meta charset ="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team Coworking</title>
+  <link rel="stylesheet" href="assets/css/style_login.css">
+  <script src="assets/js/script_login.js" defer></script>
+  <link rel="icon" type="images/png" href="assets/images/iconTeam.png"/>
+</head>  
+<p>
+<header>    
+  <nav class="home_header">  
+    <img id="logo" src="assets/images/logoTEAM Coworking.png" alt="Logo Team Coworking" width="170" height="">   
+    <ul class="home_header_navbar">
+      <li class="home_header_navbar_item">
+        <a href="index.html">HOME</a>
+      </li> 
+      <li class="home_header_navbar_item">
+        <a href="quem_somos.html">QUEM SOMOS</a> 
+      </li>
+      <li class="home_header_navbar_item">
+        <a href="espacos.html">ENCONTRE SEU COWORKING</a>
+      </li>
+      <li class="home_header_navbar_item">
+        <a href="sessao4.html">SEJA UM PARCEIRO</a>
+      </li>
+      <li class="home_header_navbar_item">
+        <a href="contato.html">FALE CONOSCO</a>
+      </li>
+      <li class="home_header_navbar_item">
+        <a href="login.html" id="login">LOGIN</a>
+      </li>
+    </ul> 
+  </nav>  
+</header>  
+<body>  
+  <main>          
+    <div>  
               <!-- posicionando as imagens -->
-              <img src="assets/images/coworking1.jpeg" alt="Start" width="400" height="250"> 
-              <img src="assets/images/coworking2estru.jpg" alt="Start" width="400" height="250"> 
-            </div>        
-            <form>
-              <div>
-                <fieldset>
+      <img src="assets/images/coworking1.jpeg" alt="Start" width="400" height="250"> 
+      <img src="assets/images/coworking2estru.jpg" alt="Start" width="400" height="250"> 
+    </div>        
+    <form action="">
+      <div>
+        <fieldset>
                   <!-- alterando o tipo de formulário e a disposição-->
-                  <legend id="AcesseSeuAmbiente"><b>Acesse seu ambiente</b></legend>       
-                  <br>          
-                  <label for="email">                    
-                  E-mail:
-                  </label>
-                  <input type="email" id="email" nome="email">               
-                  <p>                  
-                  <label for="senha">
-                  Senha:
-                  <input type="password" id="senha" name="senha"> 
-                  </label>                
-                  </p>                            
-                  <label for="radio-client"><input type="radio" name="contact" value="client" id="radio-client">Cliente</label>
-                  <label for="radio-partner"><input type="radio" name="contact" value="partner" id="radio-partner">Parceiro</label>                     
-                  <p>
-                    <i><a href="url">Esqueci minha senha</a></i>
-                  </p>
-                  <button type="submit">
-                  Login
-                  </button>
-                </fieldset>
-              </div>     
-            </form>
-         
-        </main>
-        <p>
-          <footer>
-           <p>
-            Copyright © - Team Coworking - Since 2022
-           </p>
-          </footer>
-        </p>
-    </body>
+          <legend id="AcesseSeuAmbiente"><b>Acesse seu ambiente</b></legend>       
+          <br>          
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" nome="email"> 
+          <p id="email-helper" class="helper-text">Mensagem de ajuda</p> 
+
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha">                       
+          <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
+            
+          <section>
+            <label for="radio-client"><input type="radio" name="contact" value="client" id="radio-client">Cliente</label>     
+            <label for="radio-partner"><input type="radio" name="contact" value="partner" id="radio-partner">Parceiro</label>
+          </section>                       
+          <p>  
+          <br>           
+          <nav> 
+            <i><a href="url">Esqueci minha senha</a></i>
+          </nav>  
+          </p>
+          <br>
+          <button type="submit" id="submit">Login</button>
+        </fieldset>
+      </div>     
+    </form>      
+  </main>
+<br>
+<footer>
+  <p>
+  Copyright © - Team Coworking - Since 2022
+  </p>
+</footer>
+
+</body>
 
 </html>
