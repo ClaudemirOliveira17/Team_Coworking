@@ -7,6 +7,7 @@
     <title>Contato</title>
     <link rel="stylesheet" href="assets/css/style_contato.css">
     <link rel="icon" type="image/jpg" href="assets/images/icon TEAM Coworking.png" />
+    <script src="assets/script/contato.js"></script>
 </head>
     <body>
         <main>
@@ -28,22 +29,25 @@
                 <p>A Team Working está pronta para atender você. Confira aqui nosso telefone, endereço e demais canais de atendimento.</p>
                 
                 <img id="telefonista" src="assets/images/telefonista2.png.png" alt="">
-            <form>
+            <form id="form" class="form">
+                <div class="form-control">
                 <fieldset>  
                 <legend id="entreemcontato"><b>ENTRE EM CONTATO</b></legend>
                     <p>Preencha o formulário em breve entraremos em contato.</p>     
                 <p><label for="idnome">Nome:</label></p>
-                    <input type="text" name="nome" id="idnome" size="60"></p>
+                    <input type="text" name="nome" id="idnome" size="60" placeholder="Digite seu nome"></p>
+                    <small>Mensagem de erro</small>
                 <p><label for="idemail">E-mail:</label></p> 
-                    <input type="email" email="email" id="idemail" size="60"></p>
+                    <input type="email" email="email" id="idemail" size="60" placeholder="Digite seu e-mail"></p>
                 <p><label for="idtelefone">Telefone:</label></p>
-                    <input type="tel" telefone="telefone" id="idtelefone" size="60"></p><br>
+                    <input type="tel" telefone="telefone" id="idtelefone" size="60" placeholder="(00) 00000-0000"></p><br>
                  <p><label for="idmensagem">Mensagem:</label></p>
-                    <textarea rows="9" cols="60" wrap="physical" id="idmensagem" name="comments"></textarea>
+                    <textarea rows="9" cols="60" wrap="physical" id="idmensagem" name="comments" placeholder="Digite uma mensagem"></textarea>
                 <p><input type="checkbox"> Ao clicar no botão, você concorda com nossa política de privacidade.</p>
                 <p><input type="submit" value="Enviar" id="botao"></p>
                 </fieldset>
                 </div>
+            </div>
             </form>
                 
         <div class="endereco">
