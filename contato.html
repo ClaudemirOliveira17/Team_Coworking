@@ -7,57 +7,77 @@
     <title>Contato</title>
     <link rel="stylesheet" href="assets/css/style_contato.css">
     <link rel="icon" type="image/jpg" href="assets/images/icon TEAM Coworking.png" />
-    <script src="assets/script/contato.js"></script>
+    <script src="assets/script/contato.js" defer></script>
 </head>
+<header>    
+    <nav class="home_header">  
+      <img id="logo" src="assets/images/logoTEAM Coworking.png" alt="Logo Team Coworking" width="170" height="">   
+      <ul class="home_header_navbar">
+        <li class="home_header_navbar_item">
+          <a href="index.html">HOME</a>
+        </li> 
+        <li class="home_header_navbar_item">
+          <a href="quem_somos.html">QUEM SOMOS</a> 
+        </li>
+        <li class="home_header_navbar_item">
+          <a href="espacos.html">ENCONTRE SEU COWORKING</a>
+        </li>
+        <li class="home_header_navbar_item">
+          <a href="sessao4.html">SEJA UM PARCEIRO</a>
+        </li>
+        <li class="home_header_navbar_item">
+          <a href="contato.html">FALE CONOSCO</a>
+        </li>
+        <li class="home_header_navbar_item">
+          <a href="login.html" id="login">LOGIN</a>
+        </li>
+      </ul> 
+    </nav>  
+  </header>  
+
     <body>
         <main>
 
-            <div id="menu">
-                       
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="quem_somos.html">QEM SOMOS</a></li>
-                    <li><a href="espacos.html">ENCONTRE SEU COWORKING</a></li>
-                    <li><a href="sessao4.html">SEJA UM PARCEIRO</a></li>
-                    <li><a href="contato.html">FALE CONOSCO</a></li>
-                    <li><a href="login.html" id="login">LOGIN</a></li>
-                </ul>
-            </div> 
-            <div class="grid">
-                <img id="logo" src="assets/images/logo.png" alt=""><br><br><br>
+
+              <br><br>
                 <h1 class="titulo">Vamos conversar?</h1>
                 <p>A Team Working está pronta para atender você. Confira aqui nosso telefone, endereço e demais canais de atendimento.</p>
                 
                 <img id="telefonista" src="assets/images/telefonista2.png.png" alt="">
-            <form id="form" class="form">
-                <div class="form-control">
+                
+                 <form>
                 <fieldset>  
-                <legend id="entreemcontato"><b>ENTRE EM CONTATO</b></legend>
+                    <legend id="entreemcontato"><b>ENTRE EM CONTATO</b></legend>
                     <p>Preencha o formulário em breve entraremos em contato.</p>     
-                <p><label for="idnome">Nome:</label></p>
-                    <input type="text" name="nome" id="idnome" size="60" placeholder="Digite seu nome"></p>
-                    <small>Mensagem de erro</small>
-                <p><label for="idemail">E-mail:</label></p> 
-                    <input type="email" email="email" id="idemail" size="60" placeholder="Digite seu e-mail"></p>
-                <p><label for="idtelefone">Telefone:</label></p>
-                    <input type="tel" telefone="telefone" id="idtelefone" size="60" placeholder="(00) 00000-0000"></p><br>
-                 <p><label for="idmensagem">Mensagem:</label></p>
-                    <textarea rows="9" cols="60" wrap="physical" id="idmensagem" name="comments" placeholder="Digite uma mensagem"></textarea>
-                <p><input type="checkbox"> Ao clicar no botão, você concorda com nossa política de privacidade.</p>
-                <p><input type="submit" value="Enviar" id="botao"></p>
+                    <label for="username">Nome:</label>
+                    <input type="text" name="username" id="username" size="60"></p>
+                    <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" email="email" id="email" size="60"></p>
+                    <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" telefone="telefone" id="telefone" maxlength="15" size="60"></p><br>
+                    <p id="telefone-helper" class="helper-text">Mensagem de ajuda</p>
+                    <p><label for="idmensagem">Mensagem:</label></p>
+                    <textarea rows="9" cols="47" wrap="physical" id="idmensagem" name="comments"></textarea>
+                    <p><input type="checkbox" id="checkbox" required> Ao clicar no botão, você concorda com nossa política de privacidade.</p>
+                    <p><input type="submit" value="Enviar" id="botao"></p>
                 </fieldset>
                 </div>
-            </div>
             </form>
                 
+        <div class="novo">
+        <h2 class="h2">"Qual o melhor lugar para trabalhar? Onde você quiser!"</h2>
+        </div>    
         <div class="endereco">
-        <h2 id="matriz">MATRIZ</h2>
+        <br><br>
+        <h3 class="titulo">Matriz</h3>
         <p>São Paulo - 11 4225 9090   |   Demais Regiões 0800 774 0000   |   Segunda a domingo, das 06h às 00h</p>
         <p> WhathsApp +55 800 774 0000   |   Segunda a sexta, das 08h às 18h, exceto feriados</p>
         <p>Rua Amazonas, 439 - São Caetano do Sul - SP - Brasil CEP 09520-070</p>
         </div>
         <footer>
-            <p>Copiright TEAM WORKING 2022 :: Todos os direitos resevados</p>
+            
         </footer>
     </main>
 </body>
