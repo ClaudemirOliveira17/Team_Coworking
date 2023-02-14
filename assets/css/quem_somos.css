@@ -1,16 +1,31 @@
 body {
   font-family: sans-serif;
+  width: 100%;
+  display: grid;
 }
 h1 {
   text-align: center;
+}
+.header {
+  display: grid;
+  margin-left: 30px;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 40px;
+}
+a {
+  text-decoration: none;
 }
 .logoteam {
   width: 187px;
   height: 63px;
   margin-left: 175px;
+  position: relative;
+}
+.imagemquemsomos01 {
+  max-width: 90%;
 }
 .imagemquemsomos {
-  max-width: 99%;
+  max-width: 90%;
 }
 .primeiro {
   margin: 84px 509px 5px 175px;
@@ -24,7 +39,7 @@ h1 {
   height: 171px;
 }
 img {
-  width: 100%;
+  width: 90%;
   margin: 0%;
   height: 80%;
 }
@@ -53,7 +68,7 @@ h2 {
   width: 600px;
 }
 div {
-  padding: 80px 35;
+  padding: 80px 35px;
 }
 .conheca {
   margin: 55px 1037px 55px 175px;
@@ -78,14 +93,14 @@ div {
   font-weight: 300;
   line-height: 40.726px;
   text-align: left;
-  padding: 7px 10px 0px 10px;
+  padding: 7px 15px 0px 15px;
   margin-left: 160;
   grid-row: 1;
   grid-column: 1;
 }
 .legendaobtenha {
   color: #da70d6;
-  padding: 0px 10px 35px 10px;
+  padding: 0px 15px 35px 15px;
   font-size: 20px;
   font-weight: 300;
   line-height: 32px;
@@ -100,39 +115,14 @@ div {
   height: 942px;
   margin-top: 50px;
   position: absolute;
-  left: 770px;
+  left: 775px;
   grid-column: 1;
   grid-row: 2/4;
-}
-.formulario {
-  color: #111;
-  padding: 50 45 50 45;
-  text-align: left;
-  width: 300px;
-  margin-left: 20px;
-}
-.botaoform {
-  background: #6f1abd;
-  padding: 15px;
-  border-radius: 4px;
-  margin-left: 40%;
 }
 .leftform {
   display: grid;
   place-items: start;
   place-self: start;
-}
-.privacidade {
-  color: #111;
-  text-align: center;
-  font-size: 15px;
-  display: grid;
-  grid-template-columns: 1fr;
-  background: #b2b2b2;
-  width: 450px;
-  padding: 19px;
-  border-radius: 4px;
-  margin: 50px 0px 50px 5px;
 }
 .grid {
   display: grid;
@@ -167,7 +157,7 @@ div {
   margin-left: 50px;
   padding: 0px 10px;
   background: #e8e8e8;
-  width: 1390px;
+  width: 1300px;
 }
 .solucaocerta {
   font-size: 38px;
@@ -175,10 +165,10 @@ div {
   font-size: 42px;
   font-weight: 300;
   line-height: 42px;
-  text-align: center;
+  text-align: left;
   height: 172px;
   width: 250px;
-  margin-right: 100px;
+  margin-right: 50px;
   margin-left: 0px;
   border-radius: 4px;
 }
@@ -192,13 +182,13 @@ div {
   color: #090a15;
 }
 .contatodireita {
-  width: 25%;
+  width: 30%;
   height: 252px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 90px;
   background: #e8e8e8;
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
 }
 .liguemail {
   color: #090a15;
