@@ -1,0 +1,155 @@
+.body{
+      font-family: arial;
+      display: inline-block;
+      font-size: 10px;
+  }
+  
+     
+  a {
+      text-decoration: none;
+      color: white; 
+      font-size: 80%;
+      font-family: arial; 
+  }
+  
+  .home_header {
+      border-color: #9a7cbd;
+      background-color: #9a7cbd; 
+      display: flex;
+      justify-content: space-between;
+      border-radius: 4px;  
+      padding: 15px;
+      
+  }
+    
+  .home_header_navbar_item:hover a:hover {
+      scale: 1.1;
+      color: rgb(94, 47, 138);  
+      transition: all 0.4s ease-in-out; 
+      background-color: rgb(94, 47, 138);
+      color: white;
+      border-radius: 2px;
+  }
+    
+  ul{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      margin: 1%;
+  }
+    
+  li{   
+      color: white;
+      margin-right: 10px;
+      border-left: 2px solid rgb(94, 47, 138);
+      border-right:2px solid rgb(94, 47, 138);
+      border-radius: 5px;
+      padding: 3px;   
+  }
+    
+  #login{
+      background-color: rgb(94, 47, 138);
+      color: white;
+      padding: 4px;
+      border-radius: 7px;
+      width: 10%;
+  }
+  
+  #login:hover{
+      background: white;
+      color: rgb(94, 47, 138);
+  }
+  
+  
+  
+  .titulo{
+      font-family: arial;
+      color: rgb(75, 67, 184);
+      font-weight: bold;
+      font-size: 25px;
+      display: block
+  }
+  
+ #cadastro{
+   color: #6F1abd;
+  }
+
+ form{
+      margin: auto;
+      font-family: arial;
+      color: white;
+      position: absolute;
+      justify-content: center;
+      padding: 10px;
+      background-color: #b49fcc;
+      border-color: rgb(128, 53, 226, 0.651); 
+      border-radius: 15px;
+      margin-top: 3%;
+      right: 30%;
+      
+  }
+  
+  label{
+      display: block;
+  }
+  
+  input{
+      font-size: 1rem;
+      padding: 10px;
+      border: 2px solid rgba(112, 27, 223, 0.5);
+      border-radius: 7px;
+  }
+  
+  
+  textarea{
+      font-size: 1.2rem;
+      border-radius: 7px;
+      border: 2px solid rgba(112, 27, 223, 0.5);
+  }
+  
+  #botao{
+      display: block;
+      padding: 7px;
+      border-radius: 4px;
+      background:  rgba(112, 27, 223, 0.651);
+      border-color:  rgba(112, 27, 223, 0.651);
+      color: rgb(247, 246, 248);
+      font-style: inherit;
+  }
+  
+  
+  .helper-text {
+      display: none;
+      font-size: .8rem;
+      color: darkred;
+    }
+  
+  /* ---------- Estilos dinâmicos ---------- */
+  .required-popup::after {
+      content: "*Campo obrigatório";
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #DFDFDF;
+      font-size: .65rem;
+      padding: .2rem .3rem;
+      width: auto;
+      display: block;
+      background-color: #6F1abd;
+    }
+    
+    input.error {
+      border: solid 2px #992020;
+      background-color: #CCBBBB;
+      color: #662020;
+    }
+    
+    input.correct {
+      background-color:
+      border: solid 2px rgba(128, 53, 226, 0.651);
+  }
+    
+    .visible {
+      display: block;
+    }
