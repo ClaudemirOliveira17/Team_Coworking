@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none; 
+  font-family: sans-serif;
+  color: #6F1abd;
+}
+  
+  
+.home_header {
+  margin: 5px;
+  border-color: #9a7cbd;
+  background-color: #9a7cbd; 
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;    
+  min-height: 5vh;
+  border-radius: 4px;  
+  padding: 20px;
+  list-style: nome;   
+}
+  
+@media (max-width: 600px) {
+  .home_header{
+  display: block; 
+ }
+}
+  
+.home_header_navbar {
+  display: inline-flex;
+  gap: 2px;  
+  font-size: 15px;
+  margin-right: 450px;
+}
+  
+@media (max-width: 700px) {
+  .home_header_navbar{
+   display: block; 
+}
+}
+  
+a {
+  color: #6F1abd; 
+}
+  
+.home_header_navbar_item:hover a:hover {
+  scale: 1.1;
+  color: rgb(94, 47, 138);  
+  transition: all 0.4s ease-in-out; 
+  border-radius: 4px;
+  border-color: rgb(94, 47, 138);
+  padding: 3px; 
+}
+  
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+  
+li{   
+  font-family: sans-serif;
+  color: #f1f1f1;
+  margin-right: 10px;
+  border-left: 2px solid rgb(94, 47, 138);
+  border-right:2px solid rgb(94, 47, 138);
+  border-radius: 5px;
+  padding: 3px;   
+}
+
+a {
+  text-decoration: none;  
+  color:#f1f1f1;
+}
+  
+#login{      
+  background-color: rgb(94, 47, 138);
+  color: white;
+  padding: 4px;
+  border-radius: 7px;
+}
+  
+#logo{
+  width: 150px;
+  height: 50px;
+  margin: 1%;
+}
+
+img {
+  display: flex;
+  border-radius: 4px;
+  width: 300px;
+  height: 200px;
+  margin-top: 0.1;
+  /* margin-left: -100px;
+  margin-right: 250px;
+  margin-bottom: 50px; */
+   
+} 
+
+.motivos {
+  margin-left: 14px;
+  margin-top: 7px; 
+}
+
+.beneficios {
+  margin-left: 414px;
+  margin-top: -233px; 
+
+}
+
+section, h3, h2, h1 {
+  font-family: sans-serif;
+}
+
+.area-text{
+ display: inline;
+ margin-bottom: px;
+ font-family: sans-serif;
+
+}
+
+.card-title1 {
+ display: flex;
+ margin-left: 2px;
+
+}
+.card-title2 {
+  display: flex;
+  margin-left: 189px;
+ 
+ }
+.title {
+  margin-top: 3px;
+}
+
+img {
+  width: 360px;
+  height: 270px;
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+figure {
+  display: flex;
+  margin-left: -102px;
+  width: 750px;
+  height: 370px;
+  word-spacing: 100px;
+  margin-block-start: 0em;
+  margin-block-end: -3em;
+  margin-inline-start: -108px;
+  margin-inline-end: 18px;
+  
+}
+
+.infra{
+  width: 700px;
+  margin-top: 20px;
+  margin-left: 47px;
+  margin-left: 47px;
+  display: flex;
+  margin-block-start: 2em;
+  margin-block-end: -4em;
+  margin-inline-start: -1em;
+  margin-inline-end: 45px;
+
+}
+
+.espaco {
+  margin-top: 0px;
+  margin-left: 47px;
+  margin-left: 38px;
+  display: flex;
+  margin-block-start: 2em;
+  margin-block-end: -2em;
+  margin-inline-start: 23em;
+  margin-inline-end: 0px;
+}
+
+.salas {
+  display: flex;
+  margin-left: 38px;
+  width: 400px;
+  height: 24px;
+  padding-right: 8px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 41em;
+  margin-inline-end: 0px;
+
+}
+
+.Contatos {
+  color: rgb(94, 47, 138);
+  font-family: sans-serif;
+  margin-top: 53px;
+}
+
+footer {
+  margin-left: 14px;
+  font-family: sans-serif;
+}
+
+.title-footer {
+  margin-top: 158px;
+}
